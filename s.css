@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  #container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #form-content {
+    display: flex;
+    justify-content: space-between; /* Coloca la información y la imagen en lados opuestos */
+    align-items: center; /* Añade esto para alinear el contenido verticalmente */
+  }
+  
+  #form-text {
+    flex: 1; 
+    
+  }
+  
+
+
+
+  #form-text h2 {
+    margin: 0;
+    width: 100%;
+  }
+  
+  #form-text p {
+    text-align: left; 
+    
+  }
+
+  #form-image {
+    margin-left: 20px; /* Espacio entre la información y la imagen */
+  }
+  
+  #image {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+  }
+  
+  /* Estilos para el mensaje de éxito (manteniéndolo en la parte inferior) */
+  #success-message {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #dismiss-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #dismiss-button:hover {
+    background-color: #555;
+  }
+  
+ 
+  input[type="email"] {
+    width: 90%; 
+    padding: 13px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+  }
+  
+  button[type="submit"] {
+    width: 100%; 
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #subscribe-text {
+    color: white;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: hsl(4, 100%, 67%);
+  }
+
+  #email.error {
+    border: 1px solid hsl(235, 18%, 26%);
+     
+    
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="s.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <div id="container">
+    <form>
+      <div id="form-content">
+        <div id="form-text">
+          <h2>Stay updated!</h2>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <img id="icon" src="icon-list.svg" alt="icon">Product discovery and building what matters</li>
+            <br><img id="icon" src="icon-list.svg" alt="icon">Measuring to ensure updates are a success</li>
+            <br><img id="icon" src="icon-list.svg" alt="icon">And much more!</li>
+          </ul>
+          <h5 for="email">Email address</h5>
+          <input type="email" id="email" name="email" placeholder="email@company.com">
+          <button type="submit">
+            <span id="subscribe-text">Subscribe to monthly newsletter</span>
+          </button>
+        </div>
+        <div id="form-image">
+          <!-- Coloca la imagen dentro del formulario a la derecha -->
+          <img id="image" src="illustration-sign-up-desktop.svg" alt="Imagen">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="success-message" style="display: none;">
+    <p>Thanks for subscribing!</p>
+    <p>A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription.</p>
+    <button id="dismiss-button">Dismiss message</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
